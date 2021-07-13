@@ -1,6 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 bool findPair(int arr[], int size, int n) {
 
-    map<int, int>m;
+    map<int,int>m;
     for (int i = 0; i < size; i++)
     {
         m[arr[i]]++;
@@ -25,7 +28,7 @@ int main() {
     int *arr = new int[n];
     for (int i = 0; i < n; i++)
     {
-        cinn >> arr[i];
+        cin>> arr[i];
     }
     int value;
     cin >> value;
