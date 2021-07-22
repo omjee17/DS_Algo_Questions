@@ -35,6 +35,5 @@ int main()
         v.push_back(a);
     }
     cout<<partitionDisjoint(v)<<endl;
-
     return 0;
 }
