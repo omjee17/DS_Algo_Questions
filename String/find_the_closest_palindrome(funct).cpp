@@ -74,6 +74,7 @@ string nearestPalindromic(string n) {
 
     int main()
     {
+        // leetcode problem
         // input the number as digit and call the function function will 
         // return the closest palindrome
     }
