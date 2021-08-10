@@ -3,9 +3,7 @@ using namespace std;
 
 class Solution {
   public:
-   
     vector<vector<int>>ans;
-    
     void helper(vector<int>&arr,int i,int sum,vector<int>&v)
     {
         if(sum<0)
