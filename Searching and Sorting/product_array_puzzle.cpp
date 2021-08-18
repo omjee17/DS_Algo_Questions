@@ -86,7 +86,6 @@ vector<long long int> productExceptSelf(vector<long long int>& nums, int n) {
     {
         for(int i=0;i<nums.size();i++)
         {
-           
                 long long int a=(sum/nums[i]);
                 ans.push_back(a);
 
