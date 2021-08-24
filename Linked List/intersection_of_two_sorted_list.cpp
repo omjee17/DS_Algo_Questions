@@ -12,6 +12,7 @@ struct Node
     }
 };
 
+
 Node* inputList(int size)
 {
     Node *head, *tail;
